@@ -30,7 +30,11 @@ function Menu() {
       {numPizzas > 0 ? (
         <React.Fragment key="jejeje">
           <p>
-            Authentic Italian cuisine.
+            Authentic Italian cuisine. 6
+            creative dishes to choose
+            from. All from our stone
+            oven, all organic, all
+            delicious.{" "}
           </p>
 
           <ul className="pizzas">
