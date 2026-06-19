@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# 🍕 Pizza Menu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application that displays a pizza restaurant menu. This project was built while following Jonas Schmedtmann's React course and focuses on practicing React fundamentals such as components, props, JSX, conditional rendering, and component composition.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+https://mashraf114.github.io/pizza-menu/
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Display a list of pizzas dynamically
+* Show pizza details including ingredients and price
+* Indicate sold-out pizzas
+* Conditional rendering based on restaurant opening hours
+* Clean and responsive UI
+* Built entirely with React functional components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Built With
 
-### `npm test`
+* React
+* JavaScript (ES6+)
+* HTML5
+* CSS3
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📚 What I Learned
 
-### `npm run build`
+Through this project, I practiced:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Creating and composing React components
+* Passing data using props
+* Rendering lists with `map()`
+* Conditional rendering
+* Working with JSX
+* Organizing React applications into reusable components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙️ Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the repository:
 
-### `npm run eject`
+```bash
+git clone https://github.com/mashraf114/pizza-menu.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd pizza-menu
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚢 Deployment
 
-### Code Splitting
+The application is deployed using GitHub Pages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Build and deploy:
 
-### Analyzing the Bundle Size
+```bash
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📁 Project Structure
 
-### Making a Progressive Web App
+```text
+src/
+├── index.js
+├── App.js
+├── components/
+└── index.css
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open source and available under the MIT License.
